@@ -1,4 +1,4 @@
-/* Header - this is step 1 */
+/* Header, Step 1 */
 
 header {
   display: flex;
@@ -48,7 +48,7 @@ body {
   margin: 0;
 }
 
-/* Main Content Container - this is step 2 */
+/* Main Content Container, Step 2 */
 
 .content {
   display: flex;
@@ -63,11 +63,7 @@ body {
   margin-right: 32px;
 }
 
-div {
-  border: 1px solid black;
-}
-
-/* Column widths */
+/* Column Widths, Step 2 */
 
 .column.large {
   width: 630px;
@@ -81,7 +77,7 @@ div {
   width: 240px;
 }
 
-/* Image Design */
+/* Image Design, Step 3 */
 
 .story{
   font-family: Georgia;
@@ -117,4 +113,49 @@ div {
 
 .cat-ceo.image-content{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+/* Flexibility, Step 4 */
+
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content{
+  height: 250px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative{
+  margin-top: 16px;
+}
+
+/* News Bites, Step 5 */
+
+.news-bites{
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.news-bites .bite{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
 }
